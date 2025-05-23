@@ -18,6 +18,13 @@ export default {
           dark: '#db2777'
         },
         accent: '#06d6a0',
+        border: 'hsl(214.3 31.8% 91.4%)',
+        background: 'hsl(0 0% 100%)',
+        foreground: 'hsl(222.2 84% 4.9%)',
+        muted: {
+          DEFAULT: 'hsl(210 40% 96%)',
+          foreground: 'hsl(215.4 16.3% 46.9%)'
+        },
         surface: {
           50: '#f8fafc',
           100: '#f1f5f9',
@@ -31,14 +38,6 @@ export default {
           900: '#0f172a'
         }
       },
-      border: 'hsl(214.3 31.8% 91.4%)',
-      background: 'hsl(0 0% 100%)',
-      foreground: 'hsl(222.2 84% 4.9%)',
-      muted: {
-        DEFAULT: 'hsl(210 40% 96%)',
-        foreground: 'hsl(215.4 16.3% 46.9%)'
-      }
-    },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Inter', 'ui-sans-serif', 'system-ui']
@@ -59,6 +58,7 @@ export default {
         'pulse-slow': 'pulse 3s ease-in-out infinite',
         'bounce-slow': 'bounce 2s infinite'
       }
+    }
     }
   },
   plugins: [],
