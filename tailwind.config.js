@@ -31,6 +31,14 @@ export default {
           900: '#0f172a'
         }
       },
+      border: 'hsl(214.3 31.8% 91.4%)',
+      background: 'hsl(0 0% 100%)',
+      foreground: 'hsl(222.2 84% 4.9%)',
+      muted: {
+        DEFAULT: 'hsl(210 40% 96%)',
+        foreground: 'hsl(215.4 16.3% 46.9%)'
+      }
+    },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Inter', 'ui-sans-serif', 'system-ui']
